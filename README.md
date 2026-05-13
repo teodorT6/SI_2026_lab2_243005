@@ -6,11 +6,13 @@
 
 #### searchBookByTitle
 
-![SearchBookByTitlee](SearchBookByTitlee.png)
+<img width="572" height="420" alt="SearchBookByTitlee" src="https://github.com/user-attachments/assets/602f6ada-d597-4278-84e1-b67944a5f949" />
+
 
 #### borrowBook
 
-![BorrowBookk](BorrowBookk.png)
+<img width="550" height="497" alt="BorrowBookk" src="https://github.com/user-attachments/assets/47f71b83-7867-4f92-aa83-d95034b68035" />
+
 
 ### Цикломатска комплексност
 
