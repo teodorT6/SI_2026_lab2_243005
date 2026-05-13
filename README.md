@@ -6,11 +6,11 @@
 
 #### searchBookByTitle
 
-![SearchBookByTitlee.png](SearchBookByTitlee.png)
+![SearchBookByTitlee](SearchBookByTitlee.png)
 
 #### borrowBook
 
-![BorrowBookk.png](BorrowBookk.png)
+![BorrowBookk](BorrowBookk.png)
 
 ### Цикломатска комплексност
 
