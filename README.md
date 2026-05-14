@@ -6,23 +6,22 @@
 
 #### searchBookByTitle
 
-<img width="572" height="420" alt="SearchBookByTitlee" src="https://github.com/user-attachments/assets/602f6ada-d597-4278-84e1-b67944a5f949" />
+<img width="539" height="362" alt="CFG 1" src="https://github.com/user-attachments/assets/eb0f7320-219a-45b1-87e4-8e601cdd74cd" />
 
 
 #### borrowBook
 
-<img width="550" height="497" alt="BorrowBookk" src="https://github.com/user-attachments/assets/47f71b83-7867-4f92-aa83-d95034b68035" />
-
+<img width="460" height="596" alt="Graph2" src="https://github.com/user-attachments/assets/94995199-d994-4634-ba27-d556137ec55c" />
 
 ### Цикломатска комплексност
 
-Цикломатската комплексност за searchBookByTitle e 3, истата ја добив
+Цикломатската комплексност за searchBookByTitle e 5, истата ја добив
 преку формулата P+1, каде што P е бројот на предикатни јазли.
-Во случајов P=2, па цикломатската комплексност изнесува 3.
+Во случајов P=4, па цикломатската комплексност изнесува 5.
 
 Цикломатската комплексност за borrowBook е 5, истата ја добив преку формулата P+1,
 каде што P е бројот на предикатни јазли.
-Во случајов P=4, па цикломатската комплексност изнесува 1.
+Во случајов P=4, па цикломатската комплексност изнесува 5.
 
 ### Тест случаи според критериумот Every statement
 
@@ -37,7 +36,7 @@
 | line7 |       | *     | *     |
 | line8 |       |       | *     |
 | line9 |       | *     |       |
-
+|line10 |*      | *     | *     |
 - test1: празен title ќе се фрла исклучок `IllegalArgumentException`
 - test2: Clean Code книгата е пронајдена и не е позајмена се враќа листа
 - test3: Harry Potter книгата не е пронајдена се враќа null
