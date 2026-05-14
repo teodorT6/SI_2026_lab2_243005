@@ -27,15 +27,20 @@
 ### Тест случаи според критериумот Every statement
 
 |       | test1 | test2 | test3 |
-|-------|------|------|------|
-| line1 |  *   |      |      |
-| line4 |      |  *   |  *   |
-| line6 |      |  *   |      |
-| line8 |      |      |  *   |
+|-------|-------|-------|-------|
+| line1 | *     | *     | *     |
+| line2 | *     |       |       |
+| line3 |       | *     | *     |
+| line4 |       | *     | *     |
+| line5 |       | *     | *     |
+| line6 |       | *     |       |
+| line7 |       | *     | *     |
+| line8 |       |       | *     |
+| line9 |       | *     |       |
 
 - test1: празен title ќе се фрла исклучок `IllegalArgumentException`
-- test2: Clean Code книгата е пронајдена се враќа листа
-- test3: Harry Potter книгата не е пронајдена  се враќа null
+- test2: Clean Code книгата е пронајдена и не е позајмена се враќа листа
+- test3: Harry Potter книгата не е пронајдена се враќа null
 
 Минималниот број на тест случаи за да се исполни Every Statement критериумот за функцијата `searchBookByTitle` е 3.
 
@@ -50,7 +55,7 @@
 | branch3 T |       |       | *     |       |
 | branch3 F |       |       |       | *     |
 
-- test1: празен title author се фрла `IllegalArgumentException`
+- test1: празен title и author затоа се фрла исклучок `IllegalArgumentException`
 - test2: The Hobbit и J.R.R. Tolkien книгата постои и не е позајмена успешно се позајмува
 - test3: The Hobbit и J.R.R. Tolkien книгата постои, но веќе е позајмена се фрла `RuntimeException`
 - test4: Unknown и Someone книгата не постои → се фрла `RuntimeException`
@@ -69,7 +74,7 @@
 
 ### Објаснување
 
-- test1: title е празен условот но author има па условот е true и се фрла исклучок
+- test1: title е празен условот но author има па условот е true и се фрла исклучок тука без разлика што и да е второто ако првото е true секогаш функцијата е true
 - test2: title има но author е празен условот е true се фрла исклучок
 - test3: title и author не се празни па условот е false функцијата продолжува нормално
 
